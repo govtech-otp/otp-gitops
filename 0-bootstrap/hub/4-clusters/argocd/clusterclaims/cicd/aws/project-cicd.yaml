@@ -10,11 +10,6 @@ metadata:
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
-  ignoreDifferences:
-  - kind: ClusterClaim
-    name: hive.openshift.io
-    jsonPointers:
-      - /metadata
   syncPolicy:
     automated:
       prune: false
