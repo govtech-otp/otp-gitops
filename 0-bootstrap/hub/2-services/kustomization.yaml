@@ -15,10 +15,10 @@ resources:
  #- argocd/operators/ironic.yaml
  
   # Red Hat Quay Registry
- #- argocd/operators/quay-registry.yaml
- #- argocd/instances/quay-registry-instance.yaml
- #- argocd/operators/quay-container-security.yaml
- #- argocd/operators/quay-bridge-operator.yaml
+ - argocd/operators/quay-registry.yaml
+ - argocd/instances/quay-registry-instance.yaml
+ - argocd/operators/quay-container-security.yaml
+ - argocd/operators/quay-bridge-operator.yaml
 
  # Secrets Managment
  - argocd/operators/external-secrets.yaml
@@ -70,6 +70,9 @@ resources:
  #- argocd/operators/kiali.yaml
  #- argocd/operators/openshift-service-mesh.yaml
  #- argocd/instances/openshift-service-mesh-instance.yaml
+
+# Serverless
+ - argocd/operators/openshift-serverless.yaml
 
  #- argocd/operators/ibm-cp4mcm-operator.yaml
  #- argocd/instances/ibm-cp4mcm-instance.yaml
