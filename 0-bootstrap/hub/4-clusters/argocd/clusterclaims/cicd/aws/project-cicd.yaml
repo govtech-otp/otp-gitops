@@ -16,7 +16,7 @@ spec:
         - .metadata.annotations."cluster.open-cluster-management.io/createmanagedcluster"
   syncPolicy:
     automated:
-      prune: false
+      prune: true
       selfHeal: true
   destination:
     namespace: openshift-gitops
