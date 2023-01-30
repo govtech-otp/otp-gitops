@@ -11,7 +11,7 @@ metadata:
 spec:
   ignoreDifferences:
   - kind: ClusterClaim
-    name: v1.io.openshift.hive
+    name: hive.openshift.io
     jsonPointers:
     - /metadata
   syncPolicy:
