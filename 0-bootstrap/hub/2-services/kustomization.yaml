@@ -72,7 +72,7 @@ resources:
  #- argocd/instances/openshift-service-mesh-instance.yaml
 
 # Serverless
- - argocd/operators/openshift-serverless.yaml
+ # - argocd/operators/openshift-serverless.yaml
 
  #- argocd/operators/ibm-cp4mcm-operator.yaml
  #- argocd/instances/ibm-cp4mcm-instance.yaml
