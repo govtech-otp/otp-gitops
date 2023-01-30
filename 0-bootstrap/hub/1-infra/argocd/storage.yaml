@@ -19,7 +19,7 @@ spec:
     helm:
       values: |
           channel: ${CHANNEL}
-          sizeGiB: 512
+          sizeGiB: 256 
           storageClass: ${STORCLASS}
           argo:
             namespace: openshift-gitops

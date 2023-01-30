@@ -28,7 +28,7 @@ spec:
             storageClassName: ocs-storagecluster-cephfs
             replicas: 2
           ingress:
-            replicas: 3
+            replicas: 2
           image-registry-hook-job:
             name: infraconfig-postsync
             namespace: tools
