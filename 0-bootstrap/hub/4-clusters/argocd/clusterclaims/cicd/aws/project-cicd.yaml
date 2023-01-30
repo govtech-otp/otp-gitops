@@ -23,7 +23,7 @@ spec:
       values: |
         clusterClaimName: aws-govtech-development-small
 
-        clusterPoolName: aws-pool-ap-southeast-1-small
+        clusterPoolName: aws-pool-ap-southeast-2-small
 
         managedCluster: 
           status: "disabled"
