@@ -21,12 +21,12 @@ spec:
     path: clusterclaims
     helm:
       values: |
-        clusterClaimName: aws-cicd-project-cicd
+        clusterClaimName: aws-govtech-development-small
 
-        clusterPoolName: aws-cicd-pool
+        clusterPoolName: aws-pool-ap-southeast-1-small
 
         managedCluster: 
-          status: "enabled"
-          managedRepo: https://github.com/testing-gitops/otp-gitops.git
+          status: "disabled"
+          managedRepo: https://github.com/gov-tech/otp-gitops.git
           environment: cicd
           projectName: project-cicd
