@@ -11,6 +11,8 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   syncPolicy:
+    syncOptions:
+    - RespectIgnoreDifferences=true
     automated:
       prune: false
       selfHeal: true
