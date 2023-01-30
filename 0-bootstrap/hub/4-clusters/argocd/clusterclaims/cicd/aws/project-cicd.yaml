@@ -13,7 +13,7 @@ spec:
   - kind: ClusterClaim
     name: hive.openshift.io
     jsonPointers:
-    - /metadata
+      - /metadata
   syncPolicy:
     automated:
       prune: false
