@@ -21,12 +21,12 @@ spec:
     path: clusterclaims
     helm:
       values: |
-        clusterClaimName: aws-test-project-easy
+        clusterClaimName: aws-govtech-dev-dev-small-jakarta
 
-        clusterPoolName: aws-test-pool
+        clusterPoolName: aws-pool-ap-southeast-3-small
 
         managedCluster: 
-          status: "enabled"
+          status: "disabled"
           managedRepo: https://github.com/testing-gitops/otp-gitops.git
           environment: test  
-          projectName: project-test
+          projectName: project-cicd
