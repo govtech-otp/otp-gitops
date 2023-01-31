@@ -21,8 +21,12 @@ spec:
     path: clusterpools/aws/
     helm:
       values: |
-        clusterpoolName: aws-pool-ap-southeast-2-small
+        clusterpoolName: aws-pool-ap-southeast-4-small
         imageName: 4.11.25
+
+        clusterSet:
+          name: "dev"
+          enabled: true
 
         provider:
           region: ap-southeast-2
