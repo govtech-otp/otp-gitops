@@ -22,7 +22,11 @@ spec:
     helm:
       values: |
         clusterpoolName: azure-cicd-pool
-        imageName: 4.10.18
+        imageName: 4.10.51
+
+        clusterSet:
+          name: default
+          enabled: true
 
         provider:
           region: eastus
