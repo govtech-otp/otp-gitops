@@ -30,10 +30,10 @@ spec:
 
         # Required Values
         azureSecrets:
-          azureBaseDomainRef: 015b85fd-67cb-f70c-fa40-20b9b9d3b510
-          azureBaseDomainResourceGroupNameRef: 20061b87-02af-d55a-fdc0-db9477acbe2a
-          azureOsServicePrincipalRef: 4f5caf7a-174c-5890-84b2-d7cffc7a4be7
-          openshiftPullSecretRef: 115f3c37-cd7c-5704-173f-a8a3e1234b2d
-          openshiftSSHPrivateKeyRef: 9f9063e0-1525-2534-cf8e-9c85096c7b3d
-          openshiftSSHPublicKeyRef: 90a961eb-dfd6-dbbc-049f-a532560614f6
+          azureBaseDomainRef: 094b9d3e-c841-959e-d70f-2fbe86f6ec0d
+          azureBaseDomainResourceGroupNameRef: 77ae31bf-d4c7-cf6e-45c7-de5d7bdae1ba
+          azureOsServicePrincipalRef: ef8a9c51-6300-ff8a-2aa4-aef4c9d8b166
+          openshiftPullSecretRef: adc32372-cafe-0488-a9ab-6a971a6ca2d8
+          openshiftSSHPrivateKeyRef: 91b5a6de-a9be-2b91-a3e8-2b09e3390bcb
+          openshiftSSHPublicKeyRef: 2a4c460c-4443-3d29-ee43-18b21b9c6b3b
   
