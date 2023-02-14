@@ -23,6 +23,7 @@ resources:
  #- argocd/clusterclaims/prod/aws/project-simple.yaml
  # argocd/clusterclaims/cicd/aws/project-cicd.yaml
  # argocd/clusterclaims/test/aws/project-easy.yaml
+ - argocd/clusterclaims/cicd/azure/project-cicd.yaml
 
  ## ClusterDeployments
  ## Example : - argocd/<env>/<cloud>/<clustername>/<clustername.yaml>
