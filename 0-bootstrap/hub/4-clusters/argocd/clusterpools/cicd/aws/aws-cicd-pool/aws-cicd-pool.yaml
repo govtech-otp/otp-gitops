@@ -22,7 +22,7 @@ spec:
     helm:
       values: |
         clusterpoolName: aws-pool-ap-southeast-3-small
-        imageName: 4.11.25
+        imageName: 4.12.16
 
         clusterSet:
           name: "dev"
